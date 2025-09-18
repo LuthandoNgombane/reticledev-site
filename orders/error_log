@@ -1,0 +1,11 @@
+[30-Mar-2025 23:57:40 UTC] PHP Warning:  Undefined array key "card_number" in /home/reticled/public_html/orders/account.php on line 24
+[31-Mar-2025 00:04:22 UTC] PHP Warning:  Undefined array key "card_number" in /home/reticled/public_html/orders/account.php on line 24
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/reticled/public_html/orders/account.php on line 119
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 119
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 119
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/reticled/public_html/orders/account.php on line 121
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 121
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 121
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/reticled/public_html/orders/account.php on line 123
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 123
+[31-Mar-2025 00:06:38 UTC] PHP Warning:  Trying to access array offset on null in /home/reticled/public_html/orders/account.php on line 123

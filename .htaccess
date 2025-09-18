@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+
+# Prevent direct access to .php files by redirecting to clean URLs
+# Redirect /index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index\.php [NC]
+RewriteRule ^ / [L,R=301]
+
+# Redirect /orders/*.php to /orders/*
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/orders/([a-zA-Z0-9_-]+)\.php [NC]
+RewriteRule ^orders/([a-zA-Z0-9_-]+)\.php$ /orders/$1 [L,R=301,NC]
+
+# Rewrite root URL (/) to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php [L]
+
+# Rewrite /plans, /about, /contact to index.php#plans, etc.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(plans|about|contact)$ index.php#$1 [L,NE]
+
+# Rewrite /orders/* to /orders/*.php (e.g., /orders/accountLogin to /orders/accountLogin.php)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^orders/([a-zA-Z0-9_-]+)$ orders/$1.php [L,NC]

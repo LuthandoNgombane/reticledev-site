@@ -1,0 +1,49 @@
+[20-Apr-2025 09:39:04 UTC] PHP Warning:  require(vendor/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 5
+[20-Apr-2025 09:39:04 UTC] PHP Warning:  require(vendor/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 5
+[20-Apr-2025 09:39:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 5
+[20-Apr-2025 10:05:02 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:02 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:06 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:06 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:09 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:09 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:05:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:02 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:02 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:10 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:10 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:12 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:12 UTC] PHP Warning:  require(Exception.php): Failed to open stream: No such file or directory in /home/reticled/public_html/index.php on line 6
+[20-Apr-2025 10:09:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/reticled/public_html/index.php on line 6
+[11-May-2025 18:28:12 UTC] PHP Warning:  require(includes/email-credentials.php): Failed to open stream: No such file or directory in /home/reticled/public_html/sendmail.php on line 7
+[11-May-2025 18:28:12 UTC] PHP Warning:  require(includes/email-credentials.php): Failed to open stream: No such file or directory in /home/reticled/public_html/sendmail.php on line 7
+[11-May-2025 18:28:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/email-credentials.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php:t/tmp') in /home/reticled/public_html/sendmail.php:7
+Stack trace:
+#0 /home/reticled/public_html/index.php(44): include()
+#1 {main}
+  thrown in /home/reticled/public_html/sendmail.php on line 7
